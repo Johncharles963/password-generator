@@ -1,0 +1,36 @@
+body{
+    background-color: #1F2937;
+    color: white
+}
+span{
+    color: #4ADF86;
+}
+.btn-pass{
+    font-size: 15px;
+    background-color: #273549;
+    width: 200px;
+    height: 40px;
+    color: white;
+}
+.btn-pass:hover{
+    background-color: #708bb2;
+}
+.btn-green{
+    background-color: #10B981;
+    height: 40px;
+    color: white;
+}
+.btn-green:hover{
+    background-color:   #35edb0 ;
+}
+.btn-green:focus{
+    background-color:  #0a7551 ;
+}
+
+.container-fluid{
+    height: 100vh;
+}
+.small-text{
+    font-size: 14px;
+    color: grey
+}

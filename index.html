@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <div class="container-fluid text-center d-flex align-items-center justify-content-center">
+            <div class="w-75 h-75">
+                <div class="text-center mb-5">
+                    <h1 class="">Generate a <span>random password</span></h1>
+                    <p class="small-text">Never use an unsecure password again!</p>
+                    <form class="text-center  d-flex align-items-center justify-content-center" action="#" onsubmit="return submitted()">
+                        <input id="user-num" type="number" min="10" max="16" value="16">
+                        <input class="btn btn-green mx-2" type="submit" value="Generate Password">
+                    </form>
+                </div>
+                <div class="holder w-75 row mx-auto text-center">
+                    <div  class="col-md-6 col-sm-12 p-2">
+                        <button onclick="copy1()" id="btn-1" class="btn btn-pass"></button>
+                    </div>
+                    <div  class="col-md-6 col-sm-12 p-2">
+                        <button onclick="copy2()" id="btn-2" class="btn btn-pass"></button>
+                    </div>
+                </div>
+                <div  class="holder w-75 row mx-auto text-center">
+                    <div class="col-md-6 col-sm-12 p-2">
+                        <button onclick="copy3()"  id="btn-3" class="btn btn-pass"></button>
+                    </div>
+                    <div class="col-md-6 col-sm-12 p-2">
+                        <button onclick="copy4()" id="btn-4"  class="btn btn-pass"></button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <script src="index.js" async defer></script>
+        <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
